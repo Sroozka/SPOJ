@@ -1,1 +1,1 @@
-SPOJ tsaks from https://pl.spoj.com/problems/challenge/
+SPOJ taaks from https://pl.spoj.com/problems/challenge/

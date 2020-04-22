@@ -40,36 +40,10 @@ for i in range(t):
 t = int(input()) #number of tests
 
 for i in range(t):
-numbers = input().split()
-    m = int(numbers[0])
-    n = int(numbers[1])
-    for x in range(m, n+1):
-        if x == 1: continue
-        elif x == 2: print(x)
-        elif x == 3: print(x)
-        elif (x+1)%6 == 0:
-            for y in list:
-                if x % y == 0: continue
-            print(x)
-            list.append(x)
-
-        elif (x-1)%6 == 0:
-            for y in list:
-                if x % y == 0: continue
-            print(x)
-            list.append(x)
-
-    print(list)
-"""
-"""
-t = int(input()) #number of tests
-
-for i in range(t):
-    numbers = input().split()
-    m = int(numbers[0])
-    n = int(numbers[1])
+    m, n = map(int, input().split())
+    if m % 2 == 0: m = m-1
     a = 20
-    for x in range(m, n+1):
+    for x in range(m, n+1, 2):
         if ((x + 1) % 6 == 0) or ((x - 1) % 6 == 0):
             if a**(x-1) % x == 1: print(x)
 """

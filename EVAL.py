@@ -1,2 +1,4 @@
 import math
-print(math.e)
+
+x = math.e
+print(x)
